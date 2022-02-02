@@ -4,6 +4,7 @@ This repo will be used as the example format for the group project. Any updates 
 
 1. Introduction of project including structure of phases, due dates, and weight of final grade.
 2. During Week 4 lab students will be instructed on additional git skills including branches.
+3. `GitHappens.md` is a refresher on some Git content for students 
 
 --- 
 
