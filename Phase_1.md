@@ -1,6 +1,6 @@
 # Hi! I am the file you need
 
-Great! You found a `branch` and saw this file. You will need to copy this file into a Git `branch` in your own repo. But not jsut yet.
+Great! You found a `branch` and saw this file. You will need to copy this file into a Git `branch` in your own repo. But not just yet.
 
 ## Steps to branch
 
