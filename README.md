@@ -7,7 +7,7 @@ This repo will be used as the example format for the group project. Any updates 
 
 ## Phase 1: Inital project concept - artistic & technical scope
 
-During Week 4 Lab (so yes, due by `end of day` on February 2) you will submit a personal file and demontrate a git branch on your private repo. In this file you will answer a few questions (provided during lab). At the end of Week 4 you will be informed of the final members in your group along with members' preferred contact methods. At that point, you will have until February 14th to submit Phase 1. Updated instructions will be released when groups are made official.
+During Week 4 Lab (so yes, due by `end of day` on February 2) you will submit a personal file and demonstrate a git branch on your private repo. In this file you will answer a few questions (provided during lab). At the end of Week 4 you will be informed of the final members in your group along with members' preferred contact methods. At that point, you will have until February 14th to submit Phase 1. Updated instructions will be released when groups are made official.
 
 ## Remind me about `Git` again .. ?
 
