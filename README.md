@@ -11,6 +11,8 @@ This repo will be used as the example format for the group project. Any updates 
 
 During Week 4 Lab (so yes, due by `end of day` on February 2) you will submit a personal file and demonstrate a git branch on your private repo. In this file you will answer a few questions (provided during lab). At the end of Week 4 you will be informed of the final members in your group along with members' preferred contact methods. At that point, you will have until February 14th to submit Phase 1. Updated instructions will be released when groups are made official.
 
+(there are currently a number of branches on this repo... find the branch called Student 1 and copy that file to your own private repo on your own branch (read the file first)
+
 ---
 
 ## Phase 2
