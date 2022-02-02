@@ -72,9 +72,9 @@ What is this?
 
 `HEAD` is a special reference that _points to the commit you are currently working on_ (we can call this our currently checked out commit). You can think of it as a global variable that can change depending on which commit you've checked out in your working directory. It is stored in a file called .git/HEAD, which I recommend you peek at in your text editor.[^3] 
 
-### UPDATED SECTIONS WILL CONTINUE TO APPEAR AS WE NEED THEM OR MORE CLARIFICATION
-
 ---
+
+### UPDATED SECTIONS WILL CONTINUE TO APPEAR AS WE NEED THEM OR MORE CLARIFICATION
 
 ---
 
