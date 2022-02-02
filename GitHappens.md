@@ -19,7 +19,7 @@ Instead, we will use the `Git` branch structure to manage our Group Projects and
 This would be an example of `One branch -> One Developer`. This will let us _work in parallel_ while still contributing to the _same project_. So! It is important that you feel comfortable with a basic `Git` workflow.
 
 >
-> Maybe you might want to think about `One branch -> One _Task_` ?
+> Maybe you might want to think about `One branch -> One Task` ?
 > 
 
 ## What was that workflow again?
