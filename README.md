@@ -12,7 +12,7 @@ This repo will be used as the example format for the group project. Any updates 
 
 During Week 4 Lab (so yes, due by `end of day` on February 2) you will submit a personal file and demonstrate a git branch on your private repo. In this file you will answer a few questions (provided during lab). At the end of Week 4 you will be informed of the final members in your group along with members' preferred contact methods. At that point, you will have until February 14th to submit Phase 1. Updated instructions will be released when groups are made official.
 
-(if you show students this - there are currently a number of branches on this repo... find the branch called Student_1 and they should copy that file to their own private repo on robots on a new branch (read the file first))
+(show students this - there are currently a number of branches on this repo... find the branch called Student_1 and they should copy that file to their own private repo on robots on a new branch (read the file first))
 
 ---
 
