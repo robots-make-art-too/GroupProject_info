@@ -21,6 +21,7 @@ This would be an example of `One branch -> One Developer`. This will let us _wor
 
 >
 > You could even apply this to your own projects or 100 Days practice as a `One branch -> One Task` ?
+> Or `One branch -> One language`? When you learn something, make a branch and repeat it in another language.
 > 
 
 ## What was that workflow again?
