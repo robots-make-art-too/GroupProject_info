@@ -13,7 +13,7 @@ Great! You found a `branch` and saw this file. You will need to copy this file i
 5. _Now_ we need `git stuff`: in a `CLI` for `Git` or your using your `GUI` (e.g., `GitHub Desktop`), you will need to switch or `checkout` a `branch`
    - specifically, switch to the branch you made while at the remote repo in Step 2.
    - it could be as simple as `fetch`, `pull`, and then switch to the branch
-   - it might be that you have to `git checkout <branch>` (where `branch` is `Phase_1`)
+   - it might be that you have to `git checkout <branch>` (where `branch` is ~~`Phase_1`~~ what you named your branch)
 6. You want to `git add` and `git commit` the new `Phase_1.md` file _while on the new branch_
 7. You want to `git push` _while on the new branch_
 8. Check online at your remote repo that you:
