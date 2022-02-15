@@ -60,7 +60,7 @@ Here is how you will practice and test #6 :
 - each student will be responsible for 5 x technical resources and 5 x artistic/design/aesthetic resources
 - add the links to your local copy of the file
 - whenever a student is ready - fetch the remote repo, and then pull or create a pull request if you don't have write access 
-- whoever has merge access - merge all the files back into one _this must not be a copy paste_ I should be able to see the different commits, pull requests etc.
+- whoever has merge access - merge all the files back into one _this should not be a copy paste_ I should be able to see the different commits, pull requests etc.
 - edit and combine the resources together - there should be about 40-50 resources total - 20-25 of each type
 - the `resources.md` file should be located on the main branch along with your Group document
 
