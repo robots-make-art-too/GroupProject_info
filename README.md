@@ -75,7 +75,33 @@ Finally, you are asked to document a discussion between group members regarding 
 
 ## Phase 2
 
-- to be submitted March 14
+
+### What to submit by March 14
+
+1. WEBSITE: Groups are to build their basic github pages website. This requires your group repo to be public - for now, submit the repo under public settings. Once your website has been verified and accepted you may swap back to private to continue building if you choose.
+   - but remember to test under public settings using your pages site as you continue building your project
+   - you may follow the sample site structure show in this repo
+     - mine is set up where all content to be displayed and site structure files are found in `website/`
+     - remember how we set up for Lab Project 1 (browser extensions)... `index.html`, `style.css` etc.
+
+2. DOCUMENTATION: An example of documentation of the following:
+   - video capture of an `over-the-shoulder` view of your group's github pages running/showing a live `AR` scene
+   - screen capture of the AR live scene
+
+3. ASSETS: You do not need to submit any final/polished/production-ready content but you must include:
+   - an example of at least one asset/3D model created by the group
+   - a custom `QR` code that directly loads to your AR scene on github pages
+   - a custom `pattern` or `barcode` marker for the `AR` scene
+   - the asset is to be displayed via the groups pages site, and can be activated when someone scans the `QR` code via mobile
+     - add an `assets/` folder to your website folders
+
+4. GROUP: Document at least one more group meeting between now and March 14th - have a more focused discussion on what your group is planning for the final project
+   - include a discussion summary, images, sample code or artwork etc.
+   - point-form is OK as are other methods of documentation
+
+GOOD ENOUGH FOR NOW - MORE WILL BE UPDATED over the weekend - so everyone should try out the simple `AR` scene
+
+---
 
 ## Phase 3
 
