@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Sample site for group projects
 
 Just a little site example
