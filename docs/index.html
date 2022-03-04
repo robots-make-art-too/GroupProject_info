@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html>
-<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-<body style='margin : 0px; overflow: hidden;'>
-	<a-scene embedded arjs='sourceType: webcam;'>
-		<a-box position='0 0.5 0' material='opacity: 0.5' color='yellow';></a-box>
-		<a-sphere position='1 0.5 0' color='blue';></a-sphere>
-		<a-marker-camera preset='kanji'></a-marker-camera>
-	</a-scene>
-</body>
+<html lang="en">
+	<head>
+			<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Sample Group Project Site</title>
+	</head>
+	<center>
+		<body>
+			<h2>JavaScript Button to AR page</h2>
+			<p id="demo">Building Interactive Systems</p>
+			<button type="button" onclick="openTab('website/ar-index.html')">Take me to AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+		</body>
+	</center>
 </html>
