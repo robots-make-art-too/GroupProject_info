@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: index
 ---
 
 # Sample site for group projects
