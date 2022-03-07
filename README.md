@@ -81,7 +81,7 @@ Finally, you are asked to document a discussion between group members regarding 
 1. WEBSITE: Groups are to build their basic github pages website. This requires your group repo to be public - for now, submit the repo under public settings. Once your website has been verified and accepted you may swap back to private to continue building if you choose.
    - but remember to test under public settings using your pages site as you continue building your project
    - you may follow the sample site structure shown in this repo
-     - mine is set up where all content to be displayed and site structure files are found in `docs/website/`
+     - mine is ~~set up where all content to be displayed and site structure files are found in `docs/website/`~~ in progress for more demo content Tuesday Lecture
      - remember how we set up for Lab Project 1 (browser extensions)... `index.html`, `style.css` etc.
      - site has been updated to deploy from the `branch` called `gh-pages` 
      - the directory structure will change as we build more content over the next 5 weeks
