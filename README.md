@@ -103,6 +103,7 @@ Finally, you are asked to document a discussion between group members regarding 
 
 GOOD ENOUGH FOR NOW - MORE WILL BE UPDATED over the weekend - so everyone should try out the simple `AR` scene
 
+(UPDATE: we are doing QR code, custom model loads, and other types of `AR` March 8, 9, 10)
 ---
 
 ## Phase 3
