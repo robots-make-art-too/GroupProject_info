@@ -16,14 +16,13 @@ permalink: marker-based/ar-index.html
 	<body style='margin : 0px; overflow: hidden;'>
 		<a-scene embedded arjs='sourceType: webcam;'>
 
-				<!-- define your gltf asset -->
-				<a-assets>
-					<a-asset-item id="tree" src="https://robots-make-art-too.github.io/GroupProject_info/marker-based/example_model.gltf"></a-asset-item>
-				</a-assets>
+			<!-- define your gltf asset -->
+			<a-assets>
+				<a-asset-item id="tree" src="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/pages/marker-based/example_model.gltf"></a-asset-item>
+			</a-assets>
 
-				<a-marker type='pattern' preset='custom' url='https://robots-make-art-too.github.io//marker-based/pattern-star.patt'>
+			<a-marker preset='hiro'>
 				<a-entity gltf-model="#tree"></a-entity>
-
 			</a-marker> 
 
 			<a-entity camera></a-entity>
