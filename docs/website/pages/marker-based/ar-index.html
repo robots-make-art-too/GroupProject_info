@@ -17,10 +17,14 @@ permalink: ar-index.html
 		<!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
 		<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
+				<!-- define your gltf asset -->
+				<a-assets>
+					<a-asset-item id="tree" src="example_model.gltf"></a-asset-item>
+				</a-assets>
 
 			<a-marker preset='hiro'>
-				<a-box position='0 0.5 0' material='opacity: 0.5' color='yellow';></a-box>
-				<a-sphere position='1 0.5 0' color='blue';></a-sphere>
+				<!-- use your gltf model -->
+				<a-entity gltf-model="#tree"></a-entity>
 			</a-marker> 
 
 			<a-entity camera></a-entity>
