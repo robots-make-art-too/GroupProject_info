@@ -6,9 +6,10 @@ permalink: marker-based/ar-index.html
 <!DOCTYPE html>
 <html>
 	<head>
-<!-- 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"> -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 	</head>
 	<body style='margin : 0px; overflow: hidden;'>
 		<a-scene
@@ -20,18 +21,18 @@ permalink: marker-based/ar-index.html
 			<a-assets>
 				<a-asset-item
 				id="bowser"
-				src="https://github.com/robots-make-art-too/GroupProject_info/blob/gh-pages/docs/website/pages/marker-based/bowser.glb?raw=true"
+				src="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/pages/marker-based/example_model.gltf"
 				>
 				</a-asset-item>
 			</a-assets>
 			<a-marker
-			preset="hiro"
+			type="pattern"
+			url="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/pages/marker-based/pattern-go.patt"
 			id="basic-marker"
 			>
 				<a-entity 
 				id="bowser-model"
 				position="0 0 0"
-				scale = "0.05 0.05 0.05" 
 				gltf-model="#bowser"
 				>
 				</a-entity>
