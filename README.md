@@ -9,6 +9,54 @@ This repo will be used as the example format for the group project. Any updates 
 
 --- 
 
+Remember, you are asked to document a discussion between group members regarding the technical and aesthetic thoughts - it would be best to read some of the provided context first as well as the expanded details of the project. A successful project _must_ consider a larger context and concept - situating your technical output/work with critical thought is _as important_ as the programming design. 
+> Yes I am asking you to be creative. 
+> Yes I am asking you to think. 
+> Yes I am asking you to gradually apply these skills... first through our individual lab assignments - moving from Lab 1 through to Lab 2, and then Lab 3, and Lab 4 -  will require a substantial gain in addressing why what you are building matters, or has worth - to you, to others, to no one, or what value it has beyond utilitarian -- such that you can apply your developing design principles and motivations to this project.
+
+---
+
+## Phase 3
+
+- to be submitted April 14
+
+
+---
+
+## Phase 2
+
+
+### What to submit by March 14
+
+1. WEBSITE: Groups are to build their basic github pages website. This requires your group repo to be public - for now, submit the repo under public settings. Once your website has been verified and accepted you may swap back to private to continue building if you choose.
+   - but remember to test under public settings using your pages site as you continue building your project
+   - you may follow the sample site structure shown in this repo
+     - mine is ~~set up where all content to be displayed and site structure files are found in `docs/website/`~~ in progress for more demo content during Tuesday Lecture
+     - remember how we set up for Lab Project 1 (browser extensions)... `index.html`, `style.css` etc.
+     - my site has been updated to deploy from the `branch` called `gh-pages` 
+     - the directory structure will change as we build more content over the next 5 weeks
+
+2. DOCUMENTATION: An example of documentation of the following:
+   - video capture of an `over-the-shoulder` view of your group's github pages running/showing a live `AR` scene
+   - screen capture of the AR live scene
+
+3. ASSETS: You do not need to submit any final/polished/production-ready content but you must include:
+   - an example of at least one asset/3D model created by the group
+   - a custom `QR` code that directly loads to your AR scene on github pages
+   - a custom `pattern` or `barcode` marker for the `AR` scene
+   - the asset is to be displayed via the groups pages site, and can be activated when someone scans the `QR` code via mobile
+     - add an `assets/` folder to your website folders
+
+4. GROUP: Document at least one more group meeting between now and March 14th - have a more focused discussion on what your group is planning for the final project
+   - include a discussion summary, images, sample code or artwork etc.
+   - point-form is OK as are other methods of documentation
+
+GOOD ENOUGH FOR NOW - MORE WILL BE UPDATED over the weekend - so everyone should try out the simple `AR` scene
+
+(UPDATE: we are doing QR code, custom model loads, and other types of `AR` March 8, 9, 10)
+
+---
+
 ## Phase 1: Inital project concept - artistic & technical scope
 
 During Week 4 Lab (so yes, due by `end of day` on February 2) you will submit a personal file and demonstrate a git branch on your private repo. In this file you will answer a few questions (provided during lab). At the end of Week 4 you will be informed of the final members in your group along with members' preferred contact methods. At that point, you will have until February 14th to submit Phase 1. Updated instructions will be released when groups are made official.
@@ -65,49 +113,4 @@ Here is how you will practice and test #6 :
 - edit and combine the resources together - there should be about 40-50 resources total - 20-25 of each type
 - the `resources.md` file should be located on the main branch along with your Group document
 
-Finally, you are asked to document a discussion between group members regarding the technical and aesthetic initial thoughts - it would be best to read some of the provided context first as well as the expanded details of the project. A successful project _must_ consider a larger context and concept - situating your technical output/work with critical thought is _as important_ as the programming design. 
-> Yes I am asking you to be creative. 
-> Yes I am asking you to think. 
-> Yes I am asking you to gradually apply these skills... first through our individual lab assignments - moving from Lab 1 through to Lab 2, and then Lab 3, and Lab 4 -  will require a substantial gain in addressing why what you are building matters, or has worth - to you, to others, to no one, or what value it has beyond utilitarian -- such that you can apply your developing design principles and motivations to this project.
-
-
-
----
-
-## Phase 2
-
-
-### What to submit by March 14
-
-1. WEBSITE: Groups are to build their basic github pages website. This requires your group repo to be public - for now, submit the repo under public settings. Once your website has been verified and accepted you may swap back to private to continue building if you choose.
-   - but remember to test under public settings using your pages site as you continue building your project
-   - you may follow the sample site structure shown in this repo
-     - mine is ~~set up where all content to be displayed and site structure files are found in `docs/website/`~~ in progress for more demo content during Tuesday Lecture
-     - remember how we set up for Lab Project 1 (browser extensions)... `index.html`, `style.css` etc.
-     - my site has been updated to deploy from the `branch` called `gh-pages` 
-     - the directory structure will change as we build more content over the next 5 weeks
-
-2. DOCUMENTATION: An example of documentation of the following:
-   - video capture of an `over-the-shoulder` view of your group's github pages running/showing a live `AR` scene
-   - screen capture of the AR live scene
-
-3. ASSETS: You do not need to submit any final/polished/production-ready content but you must include:
-   - an example of at least one asset/3D model created by the group
-   - a custom `QR` code that directly loads to your AR scene on github pages
-   - a custom `pattern` or `barcode` marker for the `AR` scene
-   - the asset is to be displayed via the groups pages site, and can be activated when someone scans the `QR` code via mobile
-     - add an `assets/` folder to your website folders
-
-4. GROUP: Document at least one more group meeting between now and March 14th - have a more focused discussion on what your group is planning for the final project
-   - include a discussion summary, images, sample code or artwork etc.
-   - point-form is OK as are other methods of documentation
-
-GOOD ENOUGH FOR NOW - MORE WILL BE UPDATED over the weekend - so everyone should try out the simple `AR` scene
-
-(UPDATE: we are doing QR code, custom model loads, and other types of `AR` March 8, 9, 10)
----
-
-## Phase 3
-
-- to be submitted April 14
 
