@@ -15,8 +15,8 @@ permalink: index-1.html
 			<h2>JavaScript Button to AR page</h2>
 			<p id="demo">Building Interactive Systems</p>
 
-			<!-- MARKER BASED: SINGLE MARKER | PRESET hiro | kanji -->
-			<button type="button" onclick="openTab('marker-based/ar-index.html')">Take me to marker-based AR</button>
+			<!-- MARKER BASED: MULTI MARKER | PRESET hiro | kanji -->
+			<button type="button" onclick="openTab('test.html')">Take me to marker-based AR</button>
 			<script>
 				function openTab(url) {
 					const link = document.createElement('a');
@@ -28,8 +28,8 @@ permalink: index-1.html
 				}
 			</script>
 
-			<!-- MARKER BASED: SINGLE MARKER | CUSTOM PATTERN -->
-			<button type="button" onclick="openTab('marker-based/ar-custom-pattern.html')">Take me to custom pattern marker-based AR</button>
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM PATTERN -->
+			<button type="button" onclick="openTab('custom.html')">Take me to custom pattern marker-based AR</button>
 			<script>
 				function openTab(url) {
 					const link = document.createElement('a');
@@ -41,8 +41,21 @@ permalink: index-1.html
 				}
 			</script>
 
-			<!-- MARKER BASED: SINGLE MARKER | CUSTOM BARCODE -->
-			<button type="button" onclick="openTab('marker-based/ar-custom-barcode.html')">Take me to custom barcode marker-based AR</button>
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM GlTF -->
+			<button type="button" onclick="openTab('gltf.html')">Take me to custom glTF loader for marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM BARCODE -->
+			<button type="button" onclick="openTab('gltf.html')">Take me to custom barcode marker-based AR</button>
 			<script>
 				function openTab(url) {
 					const link = document.createElement('a');
@@ -56,4 +69,5 @@ permalink: index-1.html
 
 		</body>
 	</center>
+</html>
 </html>
