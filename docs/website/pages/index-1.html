@@ -3,7 +3,6 @@ layout: default
 title: Sample Site
 permalink: index-1.html
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -15,7 +14,9 @@ permalink: index-1.html
 		<body>
 			<h2>JavaScript Button to AR page</h2>
 			<p id="demo">Building Interactive Systems</p>
-			<button type="button" onclick="openTab('ar-index.html')">Take me to AR</button>
+
+			<!-- MARKER BASED: MULTI MARKER | PRESET hiro | kanji -->
+			<button type="button" onclick="openTab('marker-based/ar-index.html')">Take me to marker-based AR</button>
 			<script>
 				function openTab(url) {
 					const link = document.createElement('a');
@@ -26,6 +27,47 @@ permalink: index-1.html
 					link.remove();
 				}
 			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM PATTERN -->
+			<button type="button" onclick="openTab('marker-based/custom-pattern.html')">Take me to custom pattern marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM GlTF -->
+			<button type="button" onclick="openTab('marker-based/custom-gltf.html')">Take me to custom glTF loader for marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
+			<!-- MARKER BASED: MULTI MARKER | CUSTOM BARCODE -->
+			<button type="button" onclick="openTab('marker-based/custom-barcode.html')">Take me to custom barcode marker-based AR</button>
+			<script>
+				function openTab(url) {
+					const link = document.createElement('a');
+					link.href = url;
+					link.target = '_blank';
+					document.body.appendChild(link);
+					link.click();
+					link.remove();
+				}
+			</script>
+
 		</body>
 	</center>
+</html>
 </html>

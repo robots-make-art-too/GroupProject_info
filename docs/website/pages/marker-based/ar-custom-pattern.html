@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AR Site
-permalink: marker-based/ar-index.html
+permalink: marker-based/ar-custom-pattern.html
 ---
 <!DOCTYPE html>
 <html>
@@ -12,14 +12,14 @@ permalink: marker-based/ar-index.html
 	</head>
 
 	<body style='margin : 0px; overflow: hidden;'>
-
+		
 		<a-scene
 		arjs="sourceType: webcam; debugUIEnabled: false;"
 		embedded
 		renderer="logarithmicDepthBuffer: true;"
 		vr-mode-ui="enabled: false"
 		id="scene">
-			
+		
 			<a-marker id="hiro-1" preset="hiro">
 				<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
 				<a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
@@ -29,8 +29,12 @@ permalink: marker-based/ar-index.html
 			
 			<a-marker id="kanji-1" preset="kanji">
 				<!-- <a-sky color="#ECECEC"></a-sky> -->
+				<a-sphere position='1 1.5 0' color='green';></a-sphere>
+			</a-marker>
+
+			<a-marker id="custom-1" type="pattern" url="pattern-go.patt">
 				<a-sphere position='-1.5 0.5 0' color='blue';></a-sphere>
-			</a-marker> 
+			</a-marker>
 
 			<a-entity camera></a-entity>
 
