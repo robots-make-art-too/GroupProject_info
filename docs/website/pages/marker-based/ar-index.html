@@ -18,25 +18,26 @@ permalink: marker-based/ar-index.html
 		renderer="logarithmicDepthBuffer: true;"
 		vr-mode-ui="enabled: false"
 		id="scene">
-			<a-assets>
+<!-- 			<a-assets>
 				<a-asset-item
 				id="bowser"
 				src="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/pages/marker-based/example_model.gltf"
 				>
 				</a-asset-item>
-			</a-assets>
+			</a-assets> -->
 			<a-marker
 			type="pattern"
 			preset="pattern"
 			url="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/pages/marker-based/pattern-go.patt"
 			id="basic-marker"
 			>
-				<a-entity 
+<!-- 				<a-entity 
 				id="bowser-model"
 				position="0 0 0"
 				gltf-model="#bowser"
 				>
-				</a-entity>
+				</a-entity> -->
+				<a-box position='0 0.5 0' material='opacity: 0.5' color='yellow';></a-box>
 			</a-marker> 
 
 			<a-entity camera></a-entity>
