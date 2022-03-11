@@ -15,13 +15,12 @@ permalink: marker-based/ar-index.html
 	<body style='margin : 0px; overflow: hidden;'>
 		<a-scene embedded arjs='sourceType: webcam;'>
 
-			<!-- define your gltf asset -->
 			<a-assets>
-				<a-asset-item id="example-gltf" src="example_model.gltf"></a-asset-item>
+				<a-asset-item id="example-obj" src="example_model.obj"></a-asset-item>
 			</a-assets>
 
 			<a-marker id="example-marker" preset="hiro">
-				<a-entity id="gltf" gltf-model="##example-gltf" position="0 0.5 0"></a-entity>
+				<a-entity id="obj-1" obj-model="obj: #example-obj" material="color: green" position="0 0.5 0"></a-entity>
 			</a-marker> 
 
 			<a-entity camera></a-entity>
