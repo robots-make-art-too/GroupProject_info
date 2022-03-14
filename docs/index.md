@@ -1,4 +1,7 @@
+
 ---
+layout: default
+title: AR Site
 permalink: index
 ---
 
