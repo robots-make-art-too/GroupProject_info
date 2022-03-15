@@ -6,7 +6,5 @@ Just a little site example
 
 As they are updated you can find links to examples of the different types of AR.
 
-1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at [today](website/AR-landing.html)
-2. [multi-marker](website/pages/marker-based/basic-marker.html)
-3. [custom-marker](website/pages/marker-based/custom-marker.html)
-4. [custom-model](website/pages/marker-based/custom-glTF.html)
+1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at:
+   - [Types of AR](website/AR-landing.html)
