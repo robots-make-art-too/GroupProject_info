@@ -1,9 +1,3 @@
----
-layout: default
-title: AR Site
-permalink: index.html
----
-
 # Sample site for group projects
 
 Just a little site example
@@ -12,4 +6,4 @@ Just a little site example
 
 As they are updated you can find links to examples of the different types of AR.
 
-1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at [today](website/AR-landing.html)
+1. First, navigate to an example of using a `JavaScript` button to open the `AR` content we looked at [today](website/basic-marker.html)
