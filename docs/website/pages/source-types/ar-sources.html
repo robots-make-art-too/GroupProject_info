@@ -4,8 +4,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-  </head>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+	</head>
   <!-- style for the loader -->
   <style>
     .arjs-loader {
@@ -45,20 +45,20 @@
       <!-- on 'url' use the path to the Image Descriptors created before. -->
       <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
       <a-nft
-        type="nft"
-        url="img/star"
-        smooth="true"
-        smoothCount="10"
-        smoothTolerance=".01"
-        smoothThreshold="5"
+	type="nft"
+	url="img/star"
+	smooth="true"
+	smoothCount="10"
+	smoothTolerance=".01"
+	smoothThreshold="5"
       >
-        <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
-        <a-entity
-          gltf-model="sun.glb"
-          scale="5 5 5"
-          position="50 150 0"
-        >
-        </a-entity>
+	<!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
+	<a-entity
+	  gltf-model="sun.glb"
+	  scale="5 5 5"
+	  position="50 150 0"
+	>
+	</a-entity>
       </a-nft>
       <!-- static camera that moves according to the device movemenents -->
       <a-entity camera></a-entity>
