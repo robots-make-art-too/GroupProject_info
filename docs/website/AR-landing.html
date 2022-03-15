@@ -3,116 +3,111 @@ layout: default
 title: Available AR examples
 permalink: docs/website/AR-landing.html
 ---
-<!DOCTYPE html>
-<html lang="en">
+
 	<head>
 		<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<title>Sample Group Project Site</title>
 	</head>
 	<center>
-		<body>
-			<h2>JavaScript Button to AR page</h2>
-			<p id="demo">Building Interactive Systems</p>
 
-			<!-- MARKER BASED: MULTI MARKER | PRESET hiro | kanji -->
-			<button type="button" onclick="openTab('basic-marker.html')">Take me to marker-based AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<h2>JavaScript Button to AR page</h2>
+		<p id="demo">Building Interactive Systems</p>
 
-			<!-- MARKER BASED: MULTI MARKER | CUSTOM PATTERN -->
-			<button type="button" onclick="openTab('pages/marker-based/custom-pattern.html')">Take me to custom pattern marker-based AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- MARKER BASED: MULTI MARKER | PRESET hiro | kanji -->
+		<button type="button" onclick="openTab('basic-marker.html')">Take me to marker-based AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-			<!-- MARKER BASED: MULTI MARKER | CUSTOM glTF -->
-			<button type="button" onclick="openTab('https://github.com/robots-make-art-too/GroupProject_info/blob/309767043dfa4e4973ba2eb75ebc07ba3880520e/docs/website/pages/marker-based/custom-glTF.html')">Take me to custom glTF loader for marker-based AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- MARKER BASED: MULTI MARKER | CUSTOM PATTERN -->
+		<button type="button" onclick="openTab('pages/marker-based/custom-pattern.html')">Take me to custom pattern marker-based AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-			<!-- MARKER BASED: MULTI MARKER | CUSTOM BARCODE -->
-			<!-- IN PROGRESS -->
-			<button type="button" onclick="openTab('pages/marker-based/custom-barcode.html')">Take me to custom barcode marker-based AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- MARKER BASED: MULTI MARKER | CUSTOM glTF -->
+		<button type="button" onclick="openTab('https://github.com/robots-make-art-too/GroupProject_info/blob/309767043dfa4e4973ba2eb75ebc07ba3880520e/docs/website/pages/marker-based/custom-glTF.html')">Take me to custom glTF loader for marker-based AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-			<!-- MARKER LESS: IN PROGRESS -->
-			<!-- FLAT SURFACE -->
-			<button type="button" onclick="openTab('pages/marker-less/marker-less.html')">Take me to marker-less AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- MARKER BASED: MULTI MARKER | CUSTOM BARCODE -->
+		<!-- IN PROGRESS -->
+		<button type="button" onclick="openTab('pages/marker-based/custom-barcode.html')">Take me to custom barcode marker-based AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-			<!-- LOCATION BASED: IN PROGRESS -->
-			<!-- GPS -->
-			<button type="button" onclick="openTab('pages/location-based/location-based.html')">Take me to location-based AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- MARKER LESS: IN PROGRESS -->
+		<!-- FLAT SURFACE -->
+		<button type="button" onclick="openTab('pages/marker-less/marker-less.html')">Take me to marker-less AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-			<!-- ADDITIONAL SOURCE TYPES | IN PROGRESS -->
-			<!-- we have done sourceType: webcam -->
-			<!-- sourceType: Image -->
-			<!-- sourceType: Video -->
-			<button type="button" onclick="openTab('pages/source-types/ar-sources.html')">Take me to image and video source AR</button>
-			<script>
-				function openTab(url) {
-					const link = document.createElement('a');
-					link.href = url;
-					link.target = '_blank';
-					document.body.appendChild(link);
-					link.click();
-					link.remove();
-				}
-			</script>
+		<!-- LOCATION BASED: IN PROGRESS -->
+		<!-- GPS -->
+		<button type="button" onclick="openTab('pages/location-based/location-based.html')">Take me to location-based AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 
-		</body>
+		<!-- ADDITIONAL SOURCE TYPES | IN PROGRESS -->
+		<!-- we have done sourceType: webcam -->
+		<!-- sourceType: Image -->
+		<!-- sourceType: Video -->
+		<button type="button" onclick="openTab('pages/source-types/ar-sources.html')">Take me to image and video source AR</button>
+		<script>
+			function openTab(url) {
+				const link = document.createElement('a');
+				link.href = url;
+				link.target = '_blank';
+				document.body.appendChild(link);
+				link.click();
+				link.remove();
+			}
+		</script>
 	</center>
-</html>
-</html>
