@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AR Site
-permalink: /docs/index.md
+permalink: index.md
 ---
 
 # Sample site for group projects
