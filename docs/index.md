@@ -1,7 +1,6 @@
 ---
 layout: default
 title: AR Site
-permalink: docs/index.html
 ---
 
 # Sample site for group projects
