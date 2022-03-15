@@ -34,35 +34,36 @@
       <div>Loading, please wait...</div>
     </div>
 
-    <!-- a-frame scene -->
-    <a-scene
-      vr-mode-ui="enabled: false;"
-      renderer="logarithmicDepthBuffer: true;"
-      embedded
-      arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
+<a-scene
+  arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+  embedded
+  renderer="logarithmicDepthBuffer: true;"
+  vr-mode-ui="enabled: false"
+  gesture-detector
+  id="scene"
+>
+  <a-nft
+    type="nft"
+    url="https://raw.githack.com/robots-make-art-too/GroupProject_info/861356e9249eee48df63dd211d1413e4ea9e93e6/docs/website/pages/marker-less/img/star"
+    smooth="true"
+    smoothCount="10"
+    smoothTolerance=".01"
+    smoothThreshold="5"
+    raycaster="objects: .clickable"
+    emitevents="true"
+    cursor="fuse: false; rayOrigin: mouse;"
+  >
+    <a-entity
+      gltf-model="https://raw.githack.com/robots-make-art-too/GroupProject_info/861356e9249eee48df63dd211d1413e4ea9e93e6/docs/website/pages/marker-less/Sun.glb"
+      scale="5 5 5"
+      position="50 150 0"
+      class="clickable"
+      gesture-handler="minScale: 0.25; maxScale: 10"
     >
-      <!-- a-nft is the anchor that defines an Image Tracking entity -->
-      <!-- on 'url' use the path to the Image Descriptors created before. -->
-      <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
-      <a-nft
-	type="nft"
-	url="img/star"
-	smooth="true"
-	smoothCount="10"
-	smoothTolerance=".01"
-	smoothThreshold="5"
-      >
-	<!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
-	<a-entity
-	  gltf-model="Sun.glb"
-	  scale="5 5 5"
-	  position="50 150 0"
-	>
-	</a-entity>
-      </a-nft>
-      <!-- static camera that moves according to the device movemenents -->
-      <a-entity camera></a-entity>
-    </a-scene>
+    </a-entity>
+  </a-nft>
+  <a-entity camera></a-entity>
+</a-scene>
   </body>
 
 </html>      
