@@ -21,7 +21,7 @@
 				<a-asset-item id="animated-test" src="../../assets/models/magnemite/scene.gltf">
 			</a-assets>
 			
-			<a-entity gltf-model="#animated-test" rotation="0 180 0" scale="0.15 0.15 0.15" gps-projected-entity-place="longitude: -79.41433; latitude: 43.68608;" animation-mixer/>
+			<a-entity gltf-model="#animated-test" rotation="0 180 0" scale="0.15 0.15 0.15" look-at="[gps-projection-camera]" gps-projected-entity-place="longitude: -79.41433; latitude: 43.68608;" animation-mixer/>
   		
 			<a-camera gps-projection-camera rotation-reader></a-camera>
 		</a-scene>
