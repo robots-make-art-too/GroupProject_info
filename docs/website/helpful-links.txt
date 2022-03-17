@@ -8,7 +8,10 @@ AR-code, QR-code in AR-marker:
 https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html
 https://ar-code.com/
 
-ARjs:
+STASHED CONTENT FOR PROBLEMS WITH LOADING FILES ONLINE:
+https://raw.githack.com/
+
+GENERAL AR.js:
 https://github.com/AR-js-org/AR.js
 https://ar-js-org.github.io/AR.js-Docs/
 
