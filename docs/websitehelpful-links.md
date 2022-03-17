@@ -4,15 +4,11 @@
 
 [Marker-based marker training](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
-[AR-code, QR-code in AR-marker:](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html)
-
-and [this](https://ar-code.com/)
+[AR-code, QR-code in AR-marker:](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html) and [this](https://ar-code.com/)
 
 [STASHED CONTENT FOR PROBLEMS WITH LOADING FILES ONLINE:](https://raw.githack.com/)
 
-[GENERAL AR.js:](https://github.com/AR-js-org/AR.js)
-
-and [this](https://ar-js-org.github.io/AR.js-Docs/)
+[GENERAL AR.js:](https://github.com/AR-js-org/AR.js) and [this](https://ar-js-org.github.io/AR.js-Docs/)
 
 [Location based quick info:](https://ar-js-org.github.io/studio/pages/location/index.html)
 
