@@ -1,8 +1,24 @@
+QR Code generator for link to site:
 https://www.qrcode-monkey.com/
 
+Marker-based marker training
 https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
 
+AR-code, QR-code in AR-marker:
+https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html
+https://ar-code.com/
 
+ARjs:
 https://github.com/AR-js-org/AR.js
-
 https://ar-js-org.github.io/AR.js-Docs/
+
+Location based quick info (also conveniently condenses an animated model into one .gltf file:
+https://ar-js-org.github.io/studio/pages/location/index.html
+
+Image tracking train:
+https://carnaux.github.io/NFT-Marker-Creator/#/
+
+A-frame, THREE.js, WEB AR:
+https://github.com/immersive-web/webxr-ar-module
+https://github.com/aframevr/aframe
+https://threejs.org/
