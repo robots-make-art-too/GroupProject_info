@@ -9,28 +9,4 @@
         <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     </head>
 
-    <body style="margin: 0; overflow: hidden;">
-        <a-scene
-            renderer="logarithmicDepthBuffer: true;"
-            embedded
-            loading-screen="enabled: false;"
-            arjs="sourceType: webcam; debugUIEnabled: false;">
-            <a-assets>
-                <a-asset-item
-                    id="animated-asset"
-                    src="../../assets/models/magnemite.gltf"
-                ></a-asset-item>
-            </a-assets>
-
-                <a-entity
-                    look-at="[gps-camera]"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    scale="0.14768864307354904 0.14768864307354904 0.14768864307354904"
-                    gps-entity-place="latitude: 21.29002313922611; longitude: -157.83146953579492;"
-                ></a-entity>
-
-            <a-camera gps-camera rotation-reader></a-camera>
-        </a-scene>
-    </body>
 </html>
