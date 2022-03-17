@@ -10,9 +10,7 @@
 
 [GENERAL AR.js:](https://github.com/AR-js-org/AR.js) and [this](https://ar-js-org.github.io/AR.js-Docs/)
 
-[Location based quick info:](https://ar-js-org.github.io/studio/pages/location/index.html)
-
-(also conveniently condenses an animated model into one .gltf file)
+[Location based quick info:](https://ar-js-org.github.io/studio/pages/location/index.html) (also conveniently condenses an animated model into one .gltf file)
 
 [Image tracking train:](https://carnaux.github.io/NFT-Marker-Creator/#/)
 
