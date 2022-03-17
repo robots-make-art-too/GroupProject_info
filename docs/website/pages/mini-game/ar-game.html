@@ -35,18 +35,18 @@
 			
 			<!-- bowser and the skull -->
 			<a-marker id="bowser-marker" type="pattern" url="assets/markers/bowser-character.patt">
-				<a-entity id="bowser-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#bowser"></a-entity>
+				<a-entity id="bowser-gltf" position="0.5 0.5 0" scale="1 1 1" gltf-model="#bowser"></a-entity>
 			</a-marker>
 			<a-marker id="skull-marker" preset="kanji">
 				<a-entity id="skull-gltf" position="0.5 0.5 0" scale="1 1 1" gltf-model="#skull"></a-entity>
 			</a-marker>
 
 			<!-- chocobo and seeds -->
-			<a-marker id="chocobo-marker" preset="hiro">
-				<a-entity id="chocobo-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#chocobo"></a-entity>
+			<a-marker id="chocobo-marker" type="pattern" url="assets/markers/chocobo-character.patt">
+				<a-entity id="chocobo-gltf" position="0.5 0.5 0" scale="1 1 1" gltf-model="#chocobo"></a-entity>
 			</a-marker>
-			<a-marker id="seeds-marker" type="pattern" url="assets/markers/seeds-object.patt">
-				<a-entity id="seeds-gltf" position="0.5 0.5 0" scale="1 1 1" obj-model="obj: #seeds-obj;" material="mtl: #seeds-mtl"</a-entity>
+			<a-marker id="seeds-marker" preset="hiro">
+				<a-entity id="seeds-gltf" position="0.5 0.5 0" scale="1 1 1" obj-model="obj: #seeds-obj; mtl: #seeds-mtl;"</a-entity>
 			</a-marker>
 
 			
