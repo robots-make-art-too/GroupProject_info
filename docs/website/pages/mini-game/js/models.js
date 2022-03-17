@@ -31,9 +31,9 @@ Tool.prototype = Object.create(ARModel.prototype);
 function initiateModels() {
     var charactersArray = [
       {
-        name: 'pyra',
-        dialogue: 'Hi there, I\'m Pyra! I\'ve lost my hammer. Let me know if you see it!',
-        tool: new Tool('hammer', 'You have found Pyra\'s hammer!'),
+        name: 'bowser',
+        dialogue: 'Hi there, I\'m Bowser! I\'ve lost my hammer. Let me know if you see it!',
+        tool: new Tool('hammer', 'You have found Bowser\'s hammer!'),
         successDialogue: 'Thanks for my hammer!'
       },
       {
