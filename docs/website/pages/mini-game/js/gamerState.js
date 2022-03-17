@@ -10,4 +10,4 @@ GamerState.prototype.hasCharacterTool = function(character) {
     return character.tool && this.tools.includes(character.tool.name);
 }
 
-var gamerState = new gamerState();
+var gamerState = new GamerState();
