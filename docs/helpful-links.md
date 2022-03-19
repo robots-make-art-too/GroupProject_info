@@ -4,6 +4,8 @@
 
 [Marker-based marker training](https://ar-js-org.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
+[good collection of markers](https://github.com/artoolkit/artoolkit5/tree/master/doc/patterns)
+
 [AR-code, QR-code in AR-marker:](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html) and [this](https://ar-code.com/)
 
 [STASHED CONTENT FOR PROBLEMS WITH LOADING FILES ONLINE:](https://raw.githack.com/)
