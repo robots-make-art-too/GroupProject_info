@@ -18,7 +18,10 @@ Remember, you are asked to document a discussion between group members regarding
 
 ## Phase 3
 
-- to be submitted April 14
+- to be submitted April ~18
+- Let me know if you plan on having anything printed (not specifics needed at this time) by the end of this week (so say Saturday) i.e., range or estimate of number, colour v greyscale, do you want test markers printed?; everyone should have a QR code! to send to print
+
+TBD at 2pm-3pm
 
 
 ---
