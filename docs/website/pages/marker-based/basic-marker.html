@@ -18,8 +18,6 @@
 			<!-- Red directional light shining from the top left. -->
 			<a-light color="red" position="-1 1 0"></a-light>
 			
-			<!-- Dim ambient lighting. -->
-			<a-light type="ambient" color="green"></a-light>
 			
 			<a-marker id="hiro-1" preset="hiro">
 				<!-- Blue point light, 5 meters in the air. -->
@@ -32,6 +30,8 @@
 			</a-marker>
 			
 			<a-marker id="kanji-1" preset="kanji">
+				<!-- Dim ambient lighting. -->
+				<a-light type="ambient" color="green"></a-light>
 				<!-- <a-sky color="#ECECEC"></a-sky> -->
 				<a-sphere position="-1.5 0.5 0" color="blue"></a-sphere>
 			</a-marker> 
