@@ -18,10 +18,55 @@ Remember, you are asked to document a discussion between group members regarding
 
 ## Phase 3
 
-- to be submitted April ~18
+- to be submitted April ~19/20 ish
 - Let me know if you plan on having anything printed (not specifics needed at this time) by the end of this week (so say Saturday) i.e., range or estimate of number, colour v greyscale, do you want test markers printed?; everyone should have a QR code! to send to print
 
-TBD at 2pm-3pm
+### To be submitted
+
+Phase 2 content plus the addition requirements for Phase 3. Note that if you no longer use markers then this is not required for your Phase 3 submission. 
+
+#### PHASE 3 specific additions
+
+1. QR code submitted for printing
+2. The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
+3. Set of videos and photos documenting the experience and all working components
+4. The live website at gh-pages branch
+5. QR code to custom Group landing page and AR activation
+6. Instructions, introduction, theme, story etc. as documentation on landing webpage
+7. One of the following: 
+   - List of GPS coords/locations
+   - List of custom markers, printed
+   - List of facial features tracked, or points used for AR content
+8. a clean and organized repo
+9. GitHub commits of content from _each_ group member
+10. PDF file of Group Project information - more comprehensive than the website landing page including:
+    - Group members and contribution
+    - Think of this PDF document as the detailed and comprehensive `README.md` and `STATEMENT.md` files combined
+    - Specific customization of AR content submitted
+      - is this in the interaction code?
+      - is this in the concept?
+      - is this in the models?
+      - is this in the experience? 
+      - what is the expected experience: what should we see and where (if you have treasure/riddle content you may leave this out until after we test)
+      - other ?
+11. Also to be evaluated is the final project experience and functionality
+    - 3 marks for technical code: complexity, interaction, difficulty 
+    - 3 marks for aesthetic experience: design, cohesiveness, affect
+ 
+#### Reminder Phase 2 content was the following
+
+1 mark for each of the following  (total /10):
+
+- custom QR code (test this) that directs to website
+- group project gh-pages / website live (you should see a link on the right side of the group github page that says "environments github-pages active' 
+- document of at least one Phase 2 group meeting
+- updated 'group members' file, or listed somewhere
+- uploaded a custom asset/ model use for their AR
+- a custom marker and pattern file (.patt and an .img file that are probably named similarly)
+- Group Project repo is updated, cleaned/organized
+- video or link to video of example documentation of the working AR scene
+- has a working AR scene
+- images of working AR scene/screen capture
 
 
 ---
