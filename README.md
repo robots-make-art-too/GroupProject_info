@@ -30,16 +30,15 @@ Phase 2 content plus the addition requirements for Phase 3. Note that if you no 
 1. QR code submitted for printing
 2. The Group Meeting with me (this is yes or no and will be counted from the first request of meetings - not the reminder to have a meeting with me)
 3. Set of videos and photos documenting the experience and all working components
-4. The live website at gh-pages branch
-5. QR code to custom Group landing page and AR activation
-6. Instructions, introduction, theme, story etc. as documentation on landing webpage
-7. One of the following: 
+4. The live website at gh-pages branch AND QR code to custom Group landing page and AR activation
+5. Instructions, introduction, theme, story etc. as documentation on landing webpage
+6. One of the following: 
    - List of GPS coords/locations
    - List of custom markers, printed
    - List of facial features tracked, or points used for AR content
-8. a clean and organized repo
-9. GitHub commits of content from _each_ group member
-10. PDF file of Group Project information - more comprehensive than the website landing page including:
+7. a clean and organized repo
+8. GitHub commits of content from _each_ group member
+9. PDF file of Group Project information - more comprehensive than the website landing page including:
     - Group members and contribution
     - Think of this PDF document as the detailed and comprehensive `README.md` and `STATEMENT.md` files combined
     - Specific customization of AR content submitted
@@ -49,7 +48,7 @@ Phase 2 content plus the addition requirements for Phase 3. Note that if you no 
       - is this in the experience? 
       - what is the expected experience: what should we see and where (if you have treasure/riddle content you may leave this out until after we test)
       - other ?
-11. Also to be evaluated is the final project experience and functionality
+10. Also to be evaluated is the final project experience and functionality
     - 3 marks for technical code: complexity, interaction, difficulty 
     - 3 marks for aesthetic experience: design, cohesiveness, affect
  
