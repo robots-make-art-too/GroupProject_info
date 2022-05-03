@@ -41,7 +41,7 @@ Phase 2 content plus the addition requirements for Phase 3. Note that if you no 
 9. PDF file of Group Project information - more comprehensive than the website landing page including:
     - Group members and contribution
     - Think of this PDF document as the detailed and comprehensive `README.md` and `STATEMENT.md` files combined
-    - Specific customization of AR content submitted
+    - Specific customization of AR content submitted - BE SPECIFIC AND DETAIL WHAT YOU DID THAT WAS CUSTOM CODE, MODELS, ETC
       - is this in the interaction code?
       - is this in the concept?
       - is this in the models?
